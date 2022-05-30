@@ -1,11 +1,11 @@
 variable "nodeCount" {
-  type = int
+  type = number
   default = 1
 }
 
 variable "nodepoolName" {
     type = string
-    default = "Default"
+    default = "default"
   
 }
 
